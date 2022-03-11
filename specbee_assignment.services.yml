@@ -1,0 +1,4 @@
+services:
+  specbee_assignment.custom_services:
+    class: Drupal\specbee_assignment\CurrentTime
+    arguments: ['@datetime.time','@date.formatter']

@@ -1,0 +1,11 @@
+<?php
+
+function specbee_assignment_theme() {
+  return [
+    'current_time_block' => [
+      'variables' => [
+        'current_time' => null,
+      ],
+    ],
+  ];
+}
